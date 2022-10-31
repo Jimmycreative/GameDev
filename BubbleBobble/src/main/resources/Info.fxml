@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="680.0" prefWidth="800.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.InfoScoreController">
+   <children>
+      <Text fill="WHITE" layoutX="338.0" layoutY="71.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Info" wrappingWidth="127.03302001953125">
+         <font>
+            <Font name="HYZhuZiChaoRanTiW Regular" size="48.0" />
+         </font>
+      </Text>
+      <ImageView layoutX="172.0" layoutY="373.0">
+         <image>
+            <Image url="@buttonSpace.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="488.0" layoutY="124.0">
+         <image>
+            <Image url="@buttonW.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="231.0" layoutY="124.0">
+         <image>
+            <Image url="@buttonUp.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="231.0" layoutY="203.0">
+         <image>
+            <Image url="@buttonRight.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="231.0" layoutY="280.0">
+         <image>
+            <Image url="@buttonLeft.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="490.0" layoutY="365.0">
+         <image>
+            <Image url="@buttonP.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="488.0" layoutY="203.0">
+         <image>
+            <Image url="@buttonQ.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="488.0" layoutY="280.0">
+         <image>
+            <Image url="@button.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="488.0" layoutY="280.0">
+         <image>
+            <Image url="@button.png" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="318.0" layoutY="165.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Jump">
+         <font>
+            <Font name="HYZhuZiChaoRanTiW Regular" size="24.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="317.0" layoutY="243.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Move Left">
+         <font>
+            <Font name="HYZhuZiChaoRanTiW Regular" size="24.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="320.0" layoutY="322.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Move Right">
+         <font>
+            <Font name="HYZhuZiChaoRanTiW Regular" size="24.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="587.0" layoutY="165.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bubble">
+         <font>
+            <Font name="HYZhuZiChaoRanTiW Regular" size="24.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="593.0" layoutY="242.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Shield">
+         <font>
+            <Font name="HYZhuZiChaoRanTiW Regular" size="24.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="594.0" layoutY="321.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Shoot">
+         <font>
+            <Font name="HYZhuZiChaoRanTiW Regular" size="24.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="327.0" layoutY="406.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dash">
+         <font>
+            <Font name="HYZhuZiChaoRanTiW Regular" size="24.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="594.0" layoutY="405.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pause Screen">
+         <font>
+            <Font name="HYZhuZiChaoRanTiW Regular" size="24.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="70.0" fitWidth="70.0" layoutX="92.0" layoutY="481.0">
+         <image>
+            <Image url="@banana.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="70.0" fitWidth="70.0" layoutX="92.0" layoutY="580.0">
+         <image>
+            <Image url="@BubbleBehavior.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="70.0" fitWidth="70.0" layoutX="319.0" layoutY="481.0">
+         <image>
+            <Image url="@FruitOrange.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="70.0" fitWidth="70.0" layoutX="318.0" layoutY="576.0">
+         <image>
+            <Image url="@heart.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="70.0" fitWidth="70.0" layoutX="538.0" layoutY="571.0">
+         <image>
+            <Image url="@InvincibleBehavior.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="70.0" fitWidth="70.0" layoutX="538.0" layoutY="484.0">
+         <image>
+            <Image url="@treasure.png" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="173.0" layoutY="615.0" strokeType="OUTSIDE" strokeWidth="0.0" text=": Bubble">
+         <font>
+            <Font name="HYZhuZiChaoRanTiW Regular" size="24.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="409.0" layoutY="535.0" strokeType="OUTSIDE" strokeWidth="0.0" text=": 70points">
+         <font>
+            <Font name="HYZhuZiChaoRanTiW Regular" size="24.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="403.0" layoutY="613.0" strokeType="OUTSIDE" strokeWidth="0.0" text=": Add life">
+         <font>
+            <Font name="HYZhuZiChaoRanTiW Regular" size="24.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="607.0" layoutY="535.0" strokeType="OUTSIDE" strokeWidth="0.0" text=": 5000points">
+         <font>
+            <Font name="HYZhuZiChaoRanTiW Regular" size="24.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="621.0" layoutY="616.0" strokeType="OUTSIDE" strokeWidth="0.0" text=": Invincible">
+         <font>
+            <Font name="HYZhuZiChaoRanTiW Regular" size="24.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="172.0" layoutY="533.0" strokeType="OUTSIDE" strokeWidth="0.0" text=": 70points">
+         <font>
+            <Font name="HYZhuZiChaoRanTiW Regular" size="24.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="67.0" fitWidth="143.0" layoutX="22.0" layoutY="36.0" onMouseClicked="#backClick">
+         <image>
+            <Image url="@backButton.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

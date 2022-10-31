@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="680.0" prefWidth="800.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.PlayerInputController">
+   <children>
+      <TextField fx:id="userInput" layoutX="243.0" layoutY="202.0" prefHeight="66.0" prefWidth="314.0" promptText="Enter player name: ">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <Text fill="WHITE" layoutX="182.0" layoutY="159.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Eneter player name:" wrappingWidth="436.25604248046875">
+         <font>
+            <Font name="HYZhuZiChaoRanTiW Regular" size="36.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="51.0" fitWidth="200.0" layoutX="300.0" layoutY="459.0" onMouseClicked="#backClick">
+         <image>
+            <Image url="@back2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="50.0" fitWidth="200.0" layoutX="300.0" layoutY="385.0" onMouseClicked="#playClick">
+         <image>
+            <Image url="@play.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

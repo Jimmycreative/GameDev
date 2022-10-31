@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="680.0" prefWidth="800.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.SettingController">
+   <children>
+      <ImageView fitHeight="683.0" fitWidth="800.0" layoutY="-3.0">
+         <image>
+            <Image url="@backgroundSet.png" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="145.0" layoutY="148.0" prefHeight="357.0" prefWidth="510.0" style="-fx-background-color: #000000;">
+         <children>
+            <Text fill="WHITE" layoutX="149.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Settings" wrappingWidth="241.11279296875">
+               <font>
+                  <Font name="HYZhuZiChaoRanTiW Regular" size="48.0" />
+               </font>
+            </Text>
+            <ChoiceBox fx:id="difficultyBox" layoutX="256.0" layoutY="90.0" prefHeight="36.0" prefWidth="109.0" />
+            <ChoiceBox fx:id="wallBox" layoutX="256.0" layoutY="150.0" prefHeight="36.0" prefWidth="109.0" />
+            <ChoiceBox fx:id="backgroundBox" layoutX="256.0" layoutY="210.0" prefHeight="36.0" prefWidth="109.0" />
+            <Label layoutX="91.0" layoutY="100.0" text="Difficulty" textFill="WHITE">
+               <font>
+                  <Font name="HYZhuZiChaoRanTiW Regular" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="91.0" layoutY="160.0" text="Wall" textFill="WHITE">
+               <font>
+                  <Font name="HYZhuZiChaoRanTiW Regular" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="91.0" layoutY="210.0" prefHeight="36.0" prefWidth="117.0" text="Background" textFill="WHITE">
+               <font>
+                  <Font name="HYZhuZiChaoRanTiW Regular" size="18.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="44.0" fitWidth="63.0" layoutX="21.0" layoutY="14.0" onMouseClicked="#backClick">
+               <image>
+                  <Image url="@backButton.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

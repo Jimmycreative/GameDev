@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"controller"},{"l":"controller.state"},{"l":"launcher"},{"l":"model"},{"l":"model.enemy"},{"l":"model.fruit"},{"l":"model.fruitStrategy"},{"l":"model.heroState"},{"l":"model.observer"},{"l":"model.projectile"},{"l":"model.staticUnit"},{"l":"utility"},{"l":"view"}];updateSearchResults();
